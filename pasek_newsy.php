@@ -11,10 +11,10 @@ session_start();?>
                 echo "<p>Witaj " . $_SESSION['user'] . '! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
                 echo "<p><b>E-mail</b>: " . $_SESSION['email'];
             } else {
-                echo '<input type="text" name="login" placeholder="login" required>';
+                echo '<input type="text" name="login" id="inputLogin" placeholder="login" required>';
                 echo ' <input type="password" name="haslo" placeholder="haslo" required>';
                 echo ' <input type="submit" value="Zaloguj się" />';
-                echo' <br/><a href="rejestracja.php">Nie masz konta? -> Zarejestruj się!</a><br/>';
+                echo' <br/><a href="rejestracja.php"><font size="5" color="white" font face="cursive">Nie masz konta? -> Zarejestruj się!</a><br/></font>';
 
             }
            if(isset($_SESSION['blad'])) echo $_SESSION['blad'];

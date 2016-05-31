@@ -109,6 +109,7 @@ h5, h6          { font-weight: bolder }
         float: left;
         overflow: hidden;
         z-index: 9999;
+
     }
 
     header .logo{
@@ -264,18 +265,20 @@ h5, h6          { font-weight: bolder }
     display: block;
     max-height: 200px;
     -webkit-transition: all 0.5s ease-out;
+
 }
 
 form {
-    width: e
+    width: e;
 
 }
 form input {
-    height:30px;
+
     margin-bottom: 0.5em;
     border: 0.1em solid #CCC;
     border-radius: 0.2em;
-    color: #474747;
+    color: blue;
+    background-color: black;
 }
 form input:focus {
     outline: 0.1em solid #7CCC14;
@@ -294,7 +297,7 @@ form input:focus {
     opacity:0;
     width:100%;
     position:fixed;
-    background:white;
+    background:#2F2F4F;
     height:30px;
     -webkit-transition: all 0.5s ease-out;
 }
@@ -320,6 +323,7 @@ form input:focus {
 .login {
     margin-right:300px;
     float:right;
+
 }
 .main{
     width: 100%;
@@ -814,13 +818,100 @@ footer {
     }
 }
 
+.controls input {
+    width: 40%;
+    font-family: blue;
+    height:35px;
+    background-color: #0f0f0f !important;
+    font-size: x-large;
+    color:white;
+}
+
+.controls button {
+    height:80px;
+    width: 10%;
+    color: blue !important;
+    background-color: black !important;
+    border-color: black !important;
+    background: black; !important;
+    font-family: cursive !important;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.controls textarea {
+    width: 40%;
+    background-color: black;
+    font-family: blue;
+    font-size: x-large;
+    color:white;
+}
 
 
+.controls label {
+    width: 40%;
+    color: red !important;
+    float: inherit;
+}
 
 
+.control-group label{
 
+    color: black;
+    font-size:x-large;
+    font-family: cursive;
 
+}
 
+#message::-webkit-input-placeholder,
+#inputMessage::-webkit-input-placeholder
+{
+    color:    blue;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+#subject::-webkit-input-placeholder,
+#inputSubject::-webkit-input-placeholder
+{
+    color: blue;
+    font-size: x-large;
+    font-family: cursive;
+}
+#email::-webkit-input-placeholder,
+#inputEmail::-webkit-input-placeholder
+{
+    color: blue;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.formularz form{
+
+    margin-top: 30px;
+    font-family: cursive;
+    height:35px !important;
+    font-size: x-large !important;
+    color:black !important;
+
+}
+
+.login input {
+    font-family: blue !important;
+    color:white !important;
+    background: black !important;
+    background-color: black !important;
+    font-family: cursive !important;
+    font-size: large;
+}
+
+.mainmenu a  {
+
+    font-size: large;
+    font-family: cursive !important;
+    color: black !important;
+    margin: auto;
+}
 
 
 

@@ -1,6 +1,28 @@
 <?php
 include 'naglowek.php';?>
 
+    <div class='loginbar'>
+
+        <form class='login' action="zaloguj_check.php" method="post" autocompleate="off">
+
+            <?php
+
+            if (isset($_SESSION['zalogowany'])) {
+                echo "<p>Witaj " . $_SESSION['user'] . '! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
+                echo "<p><b>E-mail</b>: " . $_SESSION['email'];
+            } else {
+                echo '<input type="text" name="login" id="inputLogin" placeholder="login" required>';
+                echo ' <input type="password" name="haslo" placeholder="haslo" required>';
+                echo ' <input type="submit" value="Zaloguj się" />';
+                echo' <br/><font size="4" color="white" margin="right" font face="cursive">Zaloguj się :)</a><br/></font>';
+
+            }
+            if(isset($_SESSION['blad'])) echo $_SESSION['blad'];
+            ?>
+        </form>
+
+    </div>
+
   <center> <img src="img/REJESTRACJA.jpg" height="200" "/></center>
 <?php
 $_SESSION['udanarejestracja']=0;
@@ -146,8 +168,8 @@ if (isset($_POST['email']))
 
 
 ?>
-
-<form align="center"  style="margin-top: 30px " method="post">
+<div class="formularz">
+<form  method="post" align="center">
 
     Nazwa użytkownika: <br /> <input type="text" value="<?php
     if (isset($_SESSION['fr_nazwa']))
@@ -205,15 +227,22 @@ if (isset($_POST['email']))
     }
     ?>" name="haslo2" /><br />
 
-    <label>
-        <input type="checkbox" name="regulamin" <?php
+    <div class="clearfix"></div>
+
+    <label> Akceptuję regulamin</label><br>
+
+        <input type="checkbox" name="regulamin"
+
+            <?php
         if (isset($_SESSION['fr_regulamin']))
         {
             echo "checked";
             unset($_SESSION['fr_regulamin']);
         }
-        ?>/> Akceptuję regulamin
-    </label>
+        ?>
+    />
+    <br>
+
 
     <?php
     if (isset($_SESSION['e_regulamin']))
@@ -223,8 +252,10 @@ if (isset($_POST['email']))
     }
     ?>
 
+
+    <center>
     <div class="g-recaptcha" data-sitekey="6Ldcih4TAAAAAGiTZutQLITpaRdssLBzkviG_nd-"></div>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script></center>
     <?php
     if (isset($_SESSION['e_bot']))
     {
@@ -233,11 +264,11 @@ if (isset($_POST['email']))
     }
     ?>
 
-    <br />
+<br><br>
+    <div class="clearfix"></div>
+    <input  type="submit" value="Zarejestruj się" />
 
-    <input type="submit" value="Zarejestruj się" />
-
-</form>
+</form></div>
 
 <?php
 include 'stopka.php';?>

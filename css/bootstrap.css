@@ -115,8 +115,8 @@ optgroup,
 select,
 textarea {
   margin: 0;
-  font: inherit;
-  color: inherit;
+  font: cursive;
+  color: black;
 }
 button {
   overflow: visible;
@@ -910,7 +910,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: cursive;
   font-size: inherit;
   line-height: inherit;
 }
@@ -2848,9 +2848,10 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: blue !important;
+  background-color: black !important;
+  border-color: black !important;
+
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -6329,4 +6330,8 @@ button.close {
     display: none !important;
   }
 }
+
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
