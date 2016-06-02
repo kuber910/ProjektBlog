@@ -5,7 +5,7 @@
 <?php
 include 'pasek_newsy.php';?>
 
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br />
 <?php
 include 'lista.php';?>
 

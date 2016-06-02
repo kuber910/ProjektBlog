@@ -48,7 +48,7 @@ include 'naglowek.php';
     <div class="control-group">
         <label class="control-label" for="inputMessage">Wiadomość</label>
         <div class="controls">
-            <textarea type="text" name="message" class="input-xlarge" id="inputMessage" placeholder="Twoja wiadomość" rows="8"></textarea>
+            <textarea type="text" name="message" class="input-xlarge" id="inputMessage" placeholder="Twoja wiadomość" rows="5"></textarea>
         </div>
     </div>
 

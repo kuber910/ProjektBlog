@@ -23,4 +23,4 @@ session_start();?>
 
 </div>
 <div class='logdown'></div>
-<center style="margin-top:20px "><h1><font size="15" color="navy" face = "fantasy">Newsy</h1></font></center>
+<center style="margin-top:20px "><h1><font size="15" color="white" face = "fantasy">Newsy</h1></font></center>
