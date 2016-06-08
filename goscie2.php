@@ -5,14 +5,50 @@ include 'naglowek.php';
 <?php
 include 'pasek_newsy.php';?>
 
-    <br /><br /><br /><br /><br /><br /><br /><br />
+<?php
+
+require_once "connect.php";
+
+$baza = @new mysqli($host, $db_user, $db_password, $db_name);
+
+if ($baza->connect_errno!=0)
+{
+    echo "Error: ".$baza->connect_errno;
+}
+else
+{
+    $tabela = "wpisy";
+
+    $wynik= $baza->query("SELECT * FROM ".$tabela);
+    if($wynik)
+    {
+       echo '<br><br><br><br><br><br>';
+        while($wiersz=$wynik->fetch_assoc())
+        {
+            echo  ' <div class="kom">
+                <div class="kom_data_autor">
+                '.$wiersz["autor"].'     '.$wiersz["data"].'
+                <div class="kom_tersc">
+                    '.$wiersz["tresc"].'
+                </div>
+                <br>
+            </div>
+    </div>';
+        }
+    }
+}
+
+$baza->close();
+?>
+
+    <br /><br /><br /><br /><br /><br />
 <div class="coments">
 
     <form id="formularz" class="form-horizontal" action="wpis_check.php" method="post" >
         <div class="form-group">
             <label for="inputWpis" class="col-sm-2 control-label">Nick</label>
             <div class="col-sm-1">
-                <textarea type="text" name="nick" class="form-control" id="inputWpis" placeholder="NICK"></textarea>
+                <textarea type="text" name="nick" class="form-control" id="inputWpis" placeholder="NICK""></textarea>
             </div>
         </div>
         <div class="form-group">

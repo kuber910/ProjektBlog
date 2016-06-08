@@ -927,5 +927,13 @@ footer {
  font-size:large;
  font-family: cursive;
     color: white;
+    margin-left: 10%;
 
+}
+ .kom_data_autor{
+    margin-left:50px;
+    font-family: cursive !important;
+    color: white !important;
+    font-size: x-large;
+     font-weight: bold;
 }
