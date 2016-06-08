@@ -1,4 +1,5 @@
 </section>
+<br /><br /><br /><br />
 <footer style='bottom:0; right:40%;position: absolute;'>
     <p>Strona by SnD</p>
 </footer>
