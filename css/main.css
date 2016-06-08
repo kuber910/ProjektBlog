@@ -930,11 +930,14 @@ footer {
     color: white;
     margin-left: 10%;
 
+
 }
  .kom_data_autor{
     margin-left:50px;
+     margin-right:50px;
     font-family: cursive !important;
     color: white !important;
     font-size: x-large;
      font-weight: bold;
+     background-color: rgb(25, 35, 63);
 }

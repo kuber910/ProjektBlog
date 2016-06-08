@@ -4,6 +4,8 @@ include 'naglowek.php';
 
 <?php
 include 'pasek_newsy.php';?>
+<br><br><br>
+    <center> <img src="img/images.jpg" height="300" width="50%" "/></center>
 
 <?php
 
@@ -22,11 +24,12 @@ else
     $wynik= $baza->query("SELECT * FROM ".$tabela);
     if($wynik)
     {
-       echo '<br><br><br><br><br><br>';
+       echo '<br><br><br>';
         while($wiersz=$wynik->fetch_assoc())
         {
             echo  ' <div class="kom">
-                <div class="kom_data_autor">
+                <div class="clearfix"></div>
+                <div class="kom_data_autor text-center">
                 '.$wiersz["autor"].'     '.$wiersz["data"].'
                 <div class="kom_tersc">
                     '.$wiersz["tresc"].'
@@ -40,6 +43,7 @@ else
 
 $baza->close();
 ?>
+
 
     <br /><br /><br /><br /><br /><br />
 <div class="coments">
