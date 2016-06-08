@@ -32,11 +32,12 @@
     <nav>
         <ul class='mainmenu'>
             <li><a href="index.php" class="selected">Główna</a></li>
-            <li><a href="#">Reprezentacje</a></li>
+            <li><a href="#">Reprezentacja</a></li>
             <li><a href="#">Liga Polska</a></li>
             <li><a href="#">Ligi Zagraniczne</a></li>
             <li><a href="#">Rozgrywki</a></li>
             <li><a href="kontakt.php">Kontakt</a></li>
+            <li><a href="goscie2.php">Zostaw ślad :)</a></li>
         </ul>
     </nav>
 

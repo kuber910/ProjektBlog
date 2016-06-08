@@ -1,15 +1,8 @@
 <?php
-session_start();
-?>
 
-<!DOCTYPE HTML>
-<html lang="pl">
-<head>
-    <meta charset="utf-8" />
-
-</head>
-
-<body>
+include 'naglowek.php';?>
+<?php
+include 'pasek_newsy.php';?>
 <?php
 require_once "connect.php";
 
@@ -29,11 +22,12 @@ else
 }
 
 $baza->close();
-echo "Twój wpis został dodany :) Teraz możesz wrócić na stronę głowną";
 ?>
-<br /><br />
-<a href="index.php">Główna</a>
-</body>
-</html>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <center><h1><font size="5" color="black" face ="cursive">Twój wpis został dodany :) Skorzystaj z MENU po prawej i udaj się gdzie chcesz<br /><br /></font></></center>
 
 
+<?php
+include 'stopka.php';?>+
