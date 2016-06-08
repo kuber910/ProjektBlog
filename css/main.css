@@ -925,10 +925,10 @@ footer {
 
 .coments form {
 
- font-size:large;
- font-family: cursive;
+    font-size:large;
+     font-family: cursive;
     color: white;
-    margin-left: 10%;
+    /*margin-left: 300px;*/
 
 
 }
@@ -940,4 +940,6 @@ footer {
     font-size: x-large;
      font-weight: bold;
      background-color: rgb(25, 35, 63);
+
 }
+

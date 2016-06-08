@@ -48,17 +48,17 @@ $baza->close();
     <br /><br /><br /><br /><br /><br />
 <div class="coments">
 
-    <form id="formularz" class="form-horizontal" action="wpis_check.php" method="post" >
+    <form id="formularz" class="form-horizontal  " action="wpis_check.php" method="post" >
         <div class="form-group">
             <label for="inputWpis" class="col-sm-2 control-label">Nick</label>
             <div class="col-sm-1">
                 <textarea type="text" name="nick" class="form-control" id="inputWpis" placeholder="NICK""></textarea>
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputTrescWpis" class="col-sm-2 control-label">Wpis</label>
+        <div class="form-group ">
+            <label for="inputTrescWpis" class="col-sm-2 control-label ">Wpis</label>
             <div class="col-sm-3">
-                <textarea type="text" name="wpis" class="form-control" id="inputTrescWpis" placeholder="Napisz cuś.." rows="15"></textarea>
+                <textarea type="text" name="wpis" class="form-control " id="inputTrescWpis" placeholder="Napisz cuś.." rows="15"></textarea>
             </div>
         </div
         <div class="form-group">

@@ -26,8 +26,9 @@ $baza->close();
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-    <center><h1><font size="5" color="black" face ="cursive">Twój wpis został dodany :) Skorzystaj z MENU po prawej i udaj się gdzie chcesz<br /><br /></font></></center>
-
-
+    <center><h1><font size="5" color="black" face ="cursive">Twój wpis został dodany zaraz strona się odswiezy :)<br /><br /></font></></center>
+<?php
+header('refresh: 2; url=http://localhost/ProjektBlog/goscie2.php'); // Przekierowanie strony
+?>
 <?php
 include 'stopka.php';?>+
