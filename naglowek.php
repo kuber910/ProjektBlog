@@ -33,7 +33,7 @@
         <ul class='mainmenu'>
             <li><a href="index.php" class="selected">Główna</a></li>
             <li><a href="reprezentacja.php">Reprezentacja</a></li>
-            <li><a href="#">Liga Polska</a></li>
+            <li><a href="LigaP.php">Liga Polska</a></li>
             <li><a href="#">Ligi Zagraniczne</a></li>
             <li><a href="#">Rozgrywki</a></li>
             <li><a href="kontakt.php">Kontakt</a></li>

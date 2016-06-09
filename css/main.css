@@ -553,6 +553,20 @@ form input:focus {
     background-position: 50% 50%;
 }
 
+.top2{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: url('http://ocdn.eu/pulscms-transforms/1/TtiktkpTURBXy8wNjc0ODAzOWZiYzNiYzQ4ZTNiMjY1MGRkZDJjNzcxNS5qcGeUlQMAAM0HgM0EOJMFzQMgzQHClQMKDc0DDM0BaJMFzQMMzQFo') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
 .work_nav{
     display: block;
     width: 100%;
@@ -943,3 +957,11 @@ footer {
 
 }
 
+.top2 .tytul {
+
+    font-size: x-large;
+    color: white !important;
+
+
+
+}
