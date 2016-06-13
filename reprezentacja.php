@@ -25,7 +25,7 @@ include 'pasek_newsy.php';?>
             <p>Reprezentacja Polski w piłce nożnej mężczyzn – drużyna sportowa piłki nożnej, reprezentująca Rzeczpospolitą Polską w meczach i turniejach międzynarodowych, powoływana przez selekcjonera reprezentacji, w której mogą występować wyłącznie zawodnicy posiadający obywatelstwo polskie. Za jej funkcjonowanie odpowiedzialny jest Polski Związek Piłki Nożnej.</p>
 
 
-            <h2>Skład</h2>
+            <h2>SZTAB</h2>
 
             <p>
                 Adam Nawałka – selekcjoner
@@ -46,7 +46,8 @@ include 'pasek_newsy.php';?>
 
                 <font size="20" ><center>EURO 2016 GRUPA</center> </font>
 <br><br></br>
-            <center><img src="http://www.polskitrener.pl/wp-content/uploads/Euro-terminarz.jpg"></center>
+            <center><img src="http://www.polskitrener.pl/wp-content/uploads/Euro-terminarz.jpg"></center></br>
+            <center><img src="http://static.prsa.pl/images/be55814c-28db-4a06-94f3-a445675d9763.jpg"></center>
 
         </div>
 

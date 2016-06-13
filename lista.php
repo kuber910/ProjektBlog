@@ -17,7 +17,7 @@ else
         while($wiersz=$wynik->fetch_assoc())
         {
             echo  ' <div class="work" ">
-        <a href="inner.html">
+        <a href="podstrona.php?id='.$wiersz["id"].'.php">
             <img
                 src="'.$wiersz["obrazek"].'"
                 class="media" alt=""/>

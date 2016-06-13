@@ -530,7 +530,7 @@ form input:focus {
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('https://media.laczynaspilka.pl/images/pzphp/OGU7MDYsMmYxLDFmNiw2/c0767c82792ca6942f12f7b8029b6e39.jpg') no-repeat;
+    /*background: url('https://media.laczynaspilka.pl/images/pzphp/OGU7MDYsMmYxLDFmNiw2/c0767c82792ca6942f12f7b8029b6e39.jpg') no-repeat;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -954,14 +954,5 @@ footer {
     font-size: x-large;
      font-weight: bold;
      background-color: rgb(25, 35, 63);
-
-}
-
-.top2 .tytul {
-
-    font-size: x-large;
-    color: white !important;
-
-
 
 }

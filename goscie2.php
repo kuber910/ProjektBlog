@@ -5,7 +5,7 @@ include 'naglowek.php';
 <?php
 include 'pasek_newsy.php';?>
 <br><br><br>
-    <center> <img src="img/images.jpg" height="300" width="50%" "/></center>
+    <center> <img src="img/images.jpg" height="300" width="960px" "/></center>
 
 <?php
 
