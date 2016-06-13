@@ -11,6 +11,7 @@ $id = $_GET["id"];
 
     if ($baza->connect_errno != 0) {
         echo "Error: " . $baza->connect_errno;
+
     }
 
     $tabela = "aktualnosci";
